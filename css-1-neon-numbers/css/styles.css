@@ -1,0 +1,33 @@
+body {
+    background-color: #35478c;
+    font-size: 18px;
+    font-family: "Helvetica";
+    line-height: 1em;
+    font-weight: bold;
+}
+
+.header-title {
+    padding-top: 50px;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: #3Ad2e1;
+    text-shadow: 13px -10px 16px rgba(224,19,86,0.7);
+    font-weight: ;
+}
+
+nav {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.links {
+    margin-right: 15px;
+    text-align: center;
+    color: #59193B;
+}
+
+.image {
+    margin-top: 40px;
+    text-align: center;
+}
