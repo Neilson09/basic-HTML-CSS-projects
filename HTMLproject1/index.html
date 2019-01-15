@@ -1,175 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf=8">
-		<title>The Space Station | Resort</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>The Space Station | Resort</title>
+		<!--<link rel="stylesheet" href="">-->
+        <link rel="stylesheet" href="./css/photo-style.css">
 	</head>
 	<body>
 	
-		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>HOME</li></a>
-					<a href="#gallery" id="link"><li>GALLERY</li></a>
-					<a href="#contact" id="link"><li>RESERVATIONS</li></a>
+		<!--NAV-->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>RESERVATIONS</li></a>
 				</ul>
 			</div>
 		</div>
-		
+		<!--NAV END-->
+
+		<!--HOME-->
 		<div id="home">
-			<div>		
-				<div>
-					<span>The Space Station</span>
+			<div class="container">		
+				<div class="text-center">
+					<span class="head-main">The Space Station</span>
 				</div>
 			</div>
 		</div>
-		
-		<section>
-			<div id="gallery">
+		<!--HOME END-->
+
+		<!--GALLERY-->
+		<section id="gallery">		
+			<div class="container">
 				<h1>Gallery</h1>
-									<a href="photo-package.html">DELETE ME(pics)</a>
-			</div>	
-			<!-- PHOTO CONTAINER 1 -->
-			<div>
-				<div>
-					<img src="./assets/thumbnails/1.jpg" alt="himalayas">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>We have several space launches departing daily, book your flight today!</p>
-					</div>
-				</div>
-			</div>
-				<!--END PHOTO-CONTAINER 1 -->
-			<!-- PHOTO CONTAINER 2 -->
-			<div>
-				<div>
-					<img src="./assets/thumbnails/2.jpg" alt="Eyre Peninsula, Australia">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>We have several space launches departing daily, 
-							book your flight today!</p>
-					</div>
-				</div>
-			</div>
-			<!--END PHOTO-CONTAINER 2 -->
-			<!-- PHOTO CONTAINER 3 -->
-			<div>
-				<div>	
-					<img src="./assets/thumbnails/3.jpg" alt="Mountain Lake">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>We have several space launches departing daily, 
-							book your flight today!</p>
-					</div>
-				</div>
-			</div>
-				<!--END PHOTO-CONTAINER 3 -->
-			<!-- PHOTO CONTAINER 4 -->
-			<div>
-				<div>		
-					<div>
-						<img src="./assets/thumbnails/4.jpg" alt="Maine">
-						<h3>Click to Enlarge</h3>
-						<p>We have several space launches departing daily, 
-							book your flight today!</p>
-					</div>
-				</div>
-			</div>
-			<!-- END PHOTO-CONTAINER 4 -->
-			<!-- PHOTO CONTAINER 5 -->
-			<div>
-				<div>		
-					<img src="./assets/thumbnails/5.jpg" alt="La Coruña,Spain">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>We have several space launches departing daily, 
-							book your flight today!</p>
-					</div>
-				</div>
-			</div>
-			<!--  END PHOTO-CONTAINER 5 -->
-			<!-- PHOTO CONTAINER 6 -->
-			<div>
-				<div>	
-					<img src="./assets/thumbnails/6.jpg" alt="Nepal">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>We have several space launches departing daily, 
-							book your flight today!</p>
-					</div>
-				</div>
-			</div>
-			<!-- END PHOTO-CONTAINER 6 -->
-			<!-- PHOTO CONTAINER 7 -->			
-			<div>
-				<div>		
-					<img src="./assets/thumbnails/7.jpg" alt="Australia">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>We have several space launches departing daily, 
-							book your flight today!</p>
-					</div>
-				</div>
-			</div>
-			<!-- END PHOTO-CONTAINER 7 -->
-			<!-- PHOTO CONTAINER 8 -->				
-			<div>
-				<div>		
-					<img src="./assets/thumbnails/8.jpg" alt="Utah">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>We have several space launches departing daily, 
-							book your flight today!</p>
-					</div>
-				</div>
-			</div>
-			<!-- END PHOTO-CONTAINER 8 -->
-			<!-- PHOTO CONTAINER 9 -->			
-			<div>
-				<div>		
-					<img src="./assets/thumbnails/9.jpg" alt="Milky Way">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>We have several space launches departing daily, 
-							book your flight today!</p>
-					</div>
-				</div>
-			</div>			
-			<!-- END PHOTO-CONTAINER 9 -->				
-		</section>		
-		<!-- END GALLERY -->
-		
-		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Reservations</h1>
-					<div>
-						<h2><span>Your adventure is just around the moon.</span>
-							<br />Reserve your flight today!
-						</h2>
-						<p>
-							Please provide us with your basic contact information.
-						</p>
-						<div>
-							<form action="" method="post">
-								<input class="rspv" type="text" value="First Name">
-								<input class="rspv" type="text" value="Last Name">
-								<input class="rspv" type="text" value="Email Address">							
-								<input class="rspv" type="text" value="Phone Number">
-								<div class="form-spacer">
-									<label class="terms">Terms and Conditions</label>
-								</div>
-								<div>
-									<input type="submit" value="Sumbit">
-								</div>
-							</form>
+				<div class="flex-container">
+
+					<!-- PHOTO CONTAINER 1 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./assets/thumbnails/1.jpg" alt="himalayas">
+							<div class="photo-overlay">
+								<h3 class="first-H3">Click to Enlarge<!--not gonna work; change to something working?--></h3>
+								<p>We have several space launches departing daily, 
+									book your flight today!</p>
+							</div>
 						</div>
-					</div>	
+					</div>
+					<!-- END PHOTO-CONTAINER 1 -->    
+					<!-- PHOTO CONTAINER 2 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./assets/thumbnails/2.jpg" alt="Eyre Peninsula, Australia">
+							<div class="photo-overlay">
+								<h3 class="first-H3">Click to Enlarge</h3>
+								<p>We have several space launches departing daily, 
+									book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 2 -->
+					<!-- PHOTO CONTAINER 3 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./assets/thumbnails/3.jpg" alt="Mountain Lake">
+							<div class="photo-overlay">
+								<h3 class="first-H3">Click to Enlarge</h3>
+								<p>We have several space launches departing daily, 
+									book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 3 -->
+					<!-- PHOTO CONTAINER 4 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./assets/thumbnails/4.jpg" alt="Maine">
+							<div class="photo-overlay">
+								<h3 class="first-H3">Click to Enlarge</h3>
+								<p>We have several space launches departing daily, 
+										book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 4 -->
+					<!-- PHOTO CONTAINER 5 -->
+					<div class="photo-container">
+						<div class="photo">
+								<img src="./assets/thumbnails/5.jpg" alt="La Coruña,Spain">
+							<div class="photo-overlay">
+								<h3 class="first-H3">Click to Enlarge</h3>
+								<p>We have several space launches departing daily, 
+									book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 5 -->
+					<!-- PHOTO CONTAINER 6 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./assets/thumbnails/6.jpg" alt="Nepal">
+							<div class="photo-overlay">
+								<h3 class="first-H3">Click to Enlarge</h3>
+								<p>We have several space launches departing daily, 
+										book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO-CONTAINER 6 -->        
+					<!-- PHOTO CONTAINER 7 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./assets/thumbnails/7.jpg" alt="Australia">
+							<div class="photo-overlay">
+								<h3 class="first-H3">Click to Enlarge</h3>
+								<p>We have several space launches departing daily, 
+									book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 7 -->
+					<!-- PHOTO CONTAINER 8 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./assets/thumbnails/8.jpg" alt="Utah">
+							<div class="photo-overlay">
+								<h3 class="first-H3">Click to Enlarge</h3>
+								<p>We have several space launches departing daily, 
+									book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 8 -->
+					<!-- PHOTO CONTAINER 9 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./assets/thumbnails/9.jpg" alt="Milky Way">
+							<div class="photo-overlay">
+								<h3 class="first-H3">Click to Enlarge</h3>
+								<p>We have several space launches departing daily, 
+									book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 9 -->					
 				</div>
 			</div>
+		</section>
+		<!--GALLERY END-->
+
+		<!-- RSVP -->
+		<section id="contact">
+				
 		</section>	
-		<!-- END RSVP -->		
+		<!--RSVP END-->	
 		
+		<!--FOOTER-->
+		<div id="footer">
+
+		</div>
+		<!--FOOTER END-->
+
+
 	</body>
 </html>
